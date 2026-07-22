@@ -46,5 +46,5 @@ func main() {
 	fmt.Printf("Circle Area: %.3f\n", getArea(circle))
 	fmt.Printf("Circle Perimeter: %.3f\n", circle.perimeter())
 	fmt.Printf("Rectangle Area: %.3f\n", getArea(rectangle))
-	fmt.Printf("Rectangle Perimeter: %.3f\n", rectangle.perimeter())
+	fmt.Printf("Rectangle Perimeter: %.3f\n", rectangle.area())
 }

@@ -11,16 +11,37 @@ func main() {
 	} else if x > y {
 		fmt.Printf("%d is greater than %d\n", x, y)
 	} else {
-		fmt.Printf("%d is equal to %d\n", x, y)
+		fmt.Println("They are the same")
 	}
 
-	color := "black"
+	color := "pink"
+
 	switch color {
+	case "pink":
+		println("Color is Pink")
 	case "red":
-		fmt.Println("Color is red")
+		println("Color is Red")
 	case "blue":
-		fmt.Println("Color is blue")
+		println("Color is blue")
 	default:
-		fmt.Println("Color is not red or blue")
+		println("Color not identified!")
 	}
+
+	// if x < y {
+	// 	fmt.Printf("%d is less than %d\n", x, y)
+	// } else if x > y {
+	// 	fmt.Printf("%d is greater than %d\n", x, y)
+	// } else {
+	// 	fmt.Printf("%d is equal to %d\n", x, y)
+	// }
+
+	// color := "black"
+	// switch color {
+	// case "red":
+	// 	fmt.Println("Color is red")
+	// case "blue":
+	// 	fmt.Println("Color is blue")
+	// default:
+	// 	fmt.Println("Color is not red or blue")
+	// }
 }

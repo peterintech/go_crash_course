@@ -17,18 +17,21 @@ func fizzBuzz() {
 }
 
 func main() {
-	// long method
-	i := 1
-	for i <= 10 {
-		fmt.Println(i)
-		i++
-	}
+	// // long method
+	// i := 1
+	// for i <= 10 {
+	// 	fmt.Println(i)
+	// 	i++
+	// }
 
-	//short method
-	for j := 1; j <= 10; j++ {
-		fmt.Println(j)
-	}
+	// //short method
+	// for j := 1; j <= 10; j++ {
+	// 	fmt.Println(j)
+	// }
 
-	// fizzbuz
-	fizzBuzz()
+	// // fizzbuz
+	// fizzBuzz()
+	for i := 0; i <= 7; i++ {
+		fmt.Println("masgi")
+	}
 }

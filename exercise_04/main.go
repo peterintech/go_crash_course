@@ -98,5 +98,5 @@ Part 5
 
 4. It'll help me know what each package is meant for
 
-explainn the bonus challenge
+explain the bonus challenge
 */

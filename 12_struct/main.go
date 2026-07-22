@@ -20,6 +20,14 @@ type Person2 struct {
 	age                               int
 }
 
+// two reason why we use pointer receiver
+// The first is so that the method can modify the value that its receiver points to.
+// The second is to avoid copying the value on each method call. This can be more efficient if the receiver is a large struct,
+
+// This is a Go convention:
+// If one method needs a pointer receiver
+// All methods should use pointer receivers
+
 // greeting method
 func (p Person) greet() string {
 	return "Hello, my name is " + p.firstName + " " + p.lastName + " and I am " + strconv.Itoa(p.age)
